@@ -7,8 +7,10 @@
     margin-top: 5em;
     justify-items: center;
     align-items: center;
+    justify-content: center;
 
     height: 100vh;
+    padding: 0px;
 }
 
 .homepage-logo {
@@ -57,6 +59,7 @@
     line-height: 1.7rem;
     margin-top: 2.3rem;
     text-align: right;
+    padding: 0px;
 }
 
 .recent-posts-wrapper {
@@ -74,7 +77,8 @@
     display: grid;
     width: 66vw;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-gap: 2.5rem;
+    grid-gap: 5rem;
+
 }
 
 .recent-post-title {

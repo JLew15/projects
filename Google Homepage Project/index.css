@@ -18,11 +18,8 @@
 
 }
 
-.signinbutton button:hover {
-  cursor: pointer;
-}
-
 .signinbutton button {
+  cursor: pointer;
   background-color: #4285f4;
   color: white;
   padding: 5px 15px 5px 15px;

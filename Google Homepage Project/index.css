@@ -1,0 +1,84 @@
+.image {
+  display: flex;
+  justify-content: center;
+  margin-top: 24vh;
+}
+
+.topleft {
+  display: flex;
+  position: flex-start;
+  margin-top: 17px;
+}
+
+.topleft a {
+  color: rgba(0,0,0,0.87);
+  text-decoration: none;
+}
+
+.topright {
+  display: flex;
+  float: right;
+  margin-top: -26px;
+
+}
+
+.signinbutton button {
+  background-color: #4285f4;
+  color: white;
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
+  outline-color: transparent;
+  margin-right: 25px;
+}
+
+.icon a {
+  color: #737373;
+}
+
+.icon {
+  padding-right: 15px;
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+.linksleft {
+  color: rgba(0,0,0,0.87);
+  text-decoration: none;
+  padding: 5px;
+}
+
+.linksright {
+  color: rgba(0,0,0,0.87);
+  text-decoration: none;
+  padding: 10px
+}
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.searchbar input {
+  width: 25vw;
+  height: 4vh;
+}
+
+.searchbar:hover {
+  cursor: text;
+}
+
+.searchbuttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.Google {
+  margin-right: 20px;
+}
+
+.bottomwrapper a {
+  color: #666;
+  text-decoration: none;
+}

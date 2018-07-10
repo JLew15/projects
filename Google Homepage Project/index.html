@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+            <html lang='en'>
+            <head>
+              <meta charset='UTF-8'>
+              <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+              <link rel="stylesheet" href="index.css">
+              <title></title>
+            </head>
+            <body>
+              <div class="wrapper">
+            <div class="topleft">
+            <a class="linksleft" href="#">About</a>
+            <a class="linksleft"href="#">Store</a>
+          </div>
+            <div class="topright">
+            <a class="linksright" href="#">Gmail</a>
+            <a class="linksright" href="#">Images</a>
+            <div class="icon">
+            <a href="#">
+            <i class="fas fa-th"></i>
+            </a>
+            </div>
+            <div class="signinbutton">
+            <button>Sign in</button>
+            </div>
+            </div>
+            <div class="image">
+          <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+          </div>
+            <div class="searchbar">
+              <input type="text" id="search-input">
+            </div>
+            <div class="searchbuttons">
+            <div class="Google"> <button onclick="Search()">Google Search</button> </div>
+            <div class="Lucky"> <button onclick="Search()">I'm Feeling Lucky</button> </div>
+            </div>
+            <div class="bottomwrapper">
+            <div class="bottomleft">
+            <a href="#">Advertising</a>
+            <a href="#">Business</a>
+            </div>
+            <div class="bottomright">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+            </div>
+            </div>
+            </div>
+            </body>
+            <script>
+            function Search() {
+            document.querySelector('#search-input').value = '';
+             }
+             </script>
+            </html>

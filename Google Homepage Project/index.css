@@ -107,6 +107,7 @@
 }
 
 .bottomleft {
+  background-color: red;
   display: flex;
   position: flex-start;
 }

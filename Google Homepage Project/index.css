@@ -106,8 +106,7 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.bottomleft a {
-  display: flex;
+.bottomleft {
   float: left;
   float: bottom;
 }

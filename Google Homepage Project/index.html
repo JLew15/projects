@@ -28,11 +28,11 @@
           <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
           </div>
             <div class="searchbar">
-              <input type="text">
+              <input type="text" id="search-input">
             </div>
             <div class="searchbuttons">
-            <button>Google Search</button>
-            <button>I'm Feeling Lucky</button>
+            <button onclick="Search()">Google Search</button>
+            <button onclick="Search()">I'm Feeling Lucky</button>
             </div>
             <div class="bottomwrapper">
             <div class="bottomleft">
@@ -47,4 +47,9 @@
             </div>
             </div>
             </body>
+            <script>
+            function Search() {
+            document.querySelector('#search-input').value = '';
+             }
+             </script>
             </html>

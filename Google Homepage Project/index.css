@@ -19,13 +19,13 @@
 }
 
 .signinbutton button {
-  cursor: pointer;
   background-color: #4285f4;
   color: white;
   padding: 5px 15px 5px 15px;
   border-radius: 5px;
   outline-color: transparent;
   margin-right: 25px;
+  cursor: pointer;
 }
 
 .icon a {

@@ -108,6 +108,5 @@
 
 .bottomleft {
   display: flex;
-  float: left;
-  float bottom;
+  float: bottom, left;
 }

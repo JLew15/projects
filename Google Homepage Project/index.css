@@ -76,16 +76,16 @@
 
 .Google {
   display: flex;
-  margin-right: 20px;
-  height: 10px;
-  width: 20px;
+  margin: 50px;
+  height: 100px;
+  width: 200px;
 }
 
 .Lucky {
   display: flex;
-  margin-left: 20px;
-  height: 10px;
-  width: 20px;
+  margin: 50px;
+  height: 100px;
+  width: 200px;
 }
 
 .bottomwrapper a {

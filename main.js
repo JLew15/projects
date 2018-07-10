@@ -5,9 +5,6 @@ $.get(window.location.href, (data) => {
 });
 
 function parseDirectoryListing(text) {
-    let docs = text
-        .match(/href="([\w]+)/g) // pull out the hrefs
-        .map((x) => x.replace('href="', '')); // clean up
     console.log(docs);
     return docs;
 }

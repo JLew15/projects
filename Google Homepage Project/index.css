@@ -105,3 +105,9 @@
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
 }
+
+.bottomleft {
+  display: flex;
+  float: left;
+  float: bottom;
+}

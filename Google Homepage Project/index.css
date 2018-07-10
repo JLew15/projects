@@ -64,13 +64,18 @@
   height: 4vh;
 }
 
+.searchbar:hover {
+  cursor: text;
+}
+
 .searchbuttons {
   display: flex;
   justify-content: center;
   margin-top: 30px;
-  display: grid;
-  grid-column: 1fr 1fr;
-  grid-gap: 0px 50px;
+}
+
+.Google {
+  margin-right: 20px;
 }
 
 .bottomwrapper a {

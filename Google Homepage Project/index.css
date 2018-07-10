@@ -64,7 +64,7 @@
   height: 4vh;
 }
 
-.searchbar:hover {
+.searchbar:hover input {
   cursor: text;
 }
 

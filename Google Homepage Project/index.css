@@ -65,6 +65,8 @@
 .searchbar input {
   width: 25vw;
   height: 4vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
 }
 
 .searchbar:hover input {

@@ -2,6 +2,8 @@
             <html lang='en'>
             <head>
               <meta charset='UTF-8'>
+              <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
               <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
               <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
               <link rel="stylesheet" href="index.css">
@@ -35,22 +37,25 @@
             <div class="Google"> <button onclick="Search()">Google Search</button> </div>
             <div class="Lucky"> <button onclick="Search()">I'm Feeling Lucky</button> </div>
             </div>
+            <footer>
             <div class="bottomwrapper">
             <div class="bottomleft">
-            <a href="#">Advertising</a>
-            <a href="#">Business</a>
+            <div class="button"><a href="#">Advertising</a></div>
+            <div class="button"><a href="#">Business</a></div>
             </div>
             <div class="bottomright">
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Settings</a>
+            <div class="button"><a href="#">Privacy</a></div>
+            <div class="button"><a href="#">Terms</a></div>
+            <div class="button"><a href="#">Settings</a></div>
             </div>
             </div>
+            </footer>
             </div>
             </body>
             <script>
             function Search() {
             document.querySelector('#search-input').value = '';
              }
+             $(`#search-input`).keydown( e => {if (e.which == 13) Search();})
              </script>
             </html>

@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    padding:0px;
+    background-color: darkslategray;
+}
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    width: 95vw;
+}
+
+#header>h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4em;
+    color:whitesmoke;
+}
+
+#linkcontainer {
+    height: 80vh;
+    width: 95vw;
+    display: flex;
+    background-color: rgb(20, 20, 20);
+    padding: 1em;
+}
+
+.project-link {
+    display: flex;
+    background-color: rgb(51, 46, 46);
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#linkcontainer>a {
+    text-decoration: none;
+    color: mediumseagreen;
+    height: 10vh;
+    width: 15vw;
+    padding: 3em;
+}

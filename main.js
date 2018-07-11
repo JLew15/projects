@@ -1,10 +1,8 @@
-$.get(window.location.href, (data) => {
-    console.log(data);
-    let listing = parseDirectoryListing(data);
-    $('body').append(JSON.stringify(listing));
+$(`.project`).each((z, a) => {
+    a.parentNode.append($(`<a></a>`).attr(`href`, `${a.id}/index.html`)
+    //.append($(`<div></div>`).html(($.ajax({url: `${window.location.href}/${a.id}/index.html`, type: "POST", crossDomain: true,}).val())))
+    .append($(`<div></div>`).addClass(`project-link`).attr(`id`, `${a.id}`).text(`${a.id}`))
+    [0]);
+    a.remove();
+    //$('#div1').html($('#txt1').val());
 });
-
-function parseDirectoryListing(text) {
-    console.log(docs);
-    return docs;
-}

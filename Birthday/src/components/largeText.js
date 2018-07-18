@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Largetext = (text) => {
+const LargeText = (text) => {
   return (
     <div className="large-text">
     {text}

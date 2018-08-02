@@ -1,7 +1,7 @@
 .image {
   display: flex;
   justify-content: center;
-  margin-top: 24vh;
+  margin-top: 19vh;
 }
 
 .topleft {
@@ -10,22 +10,34 @@
   margin-top: 17px;
 }
 
+.topleft a:hover {
+  text-decoration: underline;
+}
+
 
 .topright {
   display: flex;
   float: right;
   margin-top: -26px;
+}
 
+.topright a:hover{
+  text-decoration: underline;
 }
 
 .signinbutton button {
   background-color: #4285f4;
+  font-weight: bold;
+  height: 30px;
+  width: 77px;
   color: white;
   padding: 5px 15px 5px 15px;
-  border-radius: 5px;
-  outline-color: transparent;
+  border: 1px solid #4285f4;
+  border-radius: 3px;
+  outline: none;
+  margin-top: 5px;
   margin-right: 25px;
-  cursor: pointer;
+  cursor: default;
 }
 
 .icon a {
@@ -34,6 +46,7 @@
 
 .icon {
   padding-right: 15px;
+  padding-left: 5px;
   margin-top: 8px;
   font-size: 20px;
 }
@@ -50,7 +63,7 @@
 
 .linksright {
   font-family: 'Roboto', sans-serif;
-  font-size: 13px;
+  font-size: 12.5px;
   color: rgba(0,0,0,0.87);
   text-decoration: none;
   padding: 10px
@@ -63,10 +76,12 @@
 }
 
 .searchbar input {
-  width: 25vw;
+  border: 1px solid #f2f2f2;
+  width: 29vw;
   height: 4vh;
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
 }
 
 .searchbar:hover input {
@@ -81,24 +96,60 @@
 
 .Google {
   display: flex;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .Google button {
-  font-family: 'Roboto', sans-serif;
-  height: 50px;
-  width: 200px;
+  border-radius: 3px;
+  border: none;
+  color: #757575;
+  background-color: #f2f2f2;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  line-height: 16px;
+  height: 37px;
+  width: 127px;
+}
+
+.Google button:hover {
+  border: 1px solid #c6c6c6;
+  background-color: #f8f8f8;
+  color: #222;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.Google button:focus {
+  border: 1px solid #4d90fe;
+  outline: none;
 }
 
 .Lucky {
   display: flex;
-  margin-left: 10px;
+  margin-left: 1px;
 }
 
 .Lucky button {
-  font-family: 'Roboto', sans-serif;
-  height: 50px;
-  width: 200px;
+  border-radius: 3px;
+  border: none;
+  color: #757575;
+  background-color: #f2f2f2;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  line-height: 16px;
+  height: 37px;
+  width: 133px;
+}
+
+.Lucky button:hover {
+  border: 1px solid #c6c6c6;
+  background-color: #f8f8f8;
+  color: #222;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.Lucky button:focus {
+  border: 1px solid #4d90fe;
+  outline: none;
 }
 
 .bottomwrapper a {
@@ -127,7 +178,9 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 10px;
+  margin-top: 17px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .bottomleft {
@@ -136,8 +189,16 @@
   padding-left: 20px;
 }
 
+.bottomleft a:hover {
+  text-decoration: underline;
+}
+
 .bottomright {
   display: flex;
   float: right;
   padding-right: 20px;
+}
+
+.bottomright a:hover {
+  text-decoration: underline;
 }

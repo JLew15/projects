@@ -34,7 +34,7 @@
               <input type="text" id="search-input">
             </div>
             <div class="searchbuttons">
-            <div class="Google"> <a href="results.html"> <button onclick="Search()">Google Search</button> </a> </div>
+            <div class="Google"> <button onclick="Search()">Google Search</button> </div>
             <div class="Lucky"> <button onclick="Lucky()">I'm Feeling Lucky</button> </div>
             </div>
             <footer>
@@ -53,15 +53,24 @@
             </div>
             </body>
             <script>
+
             function Search() {
-              if (document.querySelector('#search-input').value.length <= 0) {
-                window.location.href="index.html";
-              } else {
+              if (document.querySelector('#search-input').value == "Bottega"){
+              window.location.href="results-bottega.html";
+            }
+              else if (document.querySelector('#search-input').value.length >= 0) {
                 window.location.href="results.html";
+              } if (document. querySelector('#search-input').value.length == 0){
+                window.location.href="index.html";
               }
              }
              function Lucky() {
-               document.querySelector('#search-input').value = '';
+              if (document.querySelector('#search-input').value == "Bottega") {
+                window.location.href='results-bottega.html'
+              }
+              else {
+                document.querySelector('#search-input').value = '';
+              }
              }
              $(`#search-input`).keydown( e => {if (e.which == 13) Search();})
              </script>

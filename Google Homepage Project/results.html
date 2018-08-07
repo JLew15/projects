@@ -17,6 +17,9 @@
           <div class="searchbar">
             <input type="text" id="search-input">
           </div>
+          <div class="all-tab">
+            <p><a href=#>All</a></p>
+          </div>
           <div class='topright'>
           <div class="icon">
           <a href="#">
@@ -42,4 +45,14 @@
           <p>Phasellus euismod pellentesque tellus non varius. Praesent eu metus sagittis, tincidunt enim quis, volutpat neque. Proin auctor, felis id gravida consectetur, mauris ipsum viverra lacus, sed ultrices quam turpis at augue. Proin iaculis tortor vel vehicula condimentum. Etiam posuere sit amet dui sed vulputate. Donec ornare pharetra mi finibus elementum. In vel sapien sit amet eros porta pretium a eu lacus. Integer quis posuere metus. Aliquam nec consectetur erat, a ullamcorper orci. Donec consequat enim ut pharetra commodo. In suscipit, nibh id lacinia elementum, nisi magna tincidunt arcu, eget porta nunc ligula vitae ipsum. </p>
         </div>
         </body>
+        <script>
+        function Clear()
+        { if (document.querySelector('#search-input').value == 'Bottega') {
+          window.location.href="results-bottega.html";
+        } else {
+          document.querySelector('#search-input').value = '';
+        }
+        }
+        $(`#search-input`).keydown( e => {if (e.which == 13) Clear();})
+        </script>
         </html>

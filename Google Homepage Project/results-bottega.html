@@ -4,17 +4,21 @@
               <meta charset='UTF-8'>
               <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
-              <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+              <link href="https://fonts.googleapis.com/css?family=Roboto|Inconsolata" rel="stylesheet">
               <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
               <link rel="stylesheet" href="results-bottega.css">
               <title></title>
             </head>
             <body>
+              <div class="headerbar">
             <div class="image">
           <img src="https://bottega.tech/wp-content/uploads/2017/04/black-n.png" alt="">
           </div>
           <div class="searchbar">
             <input type="text" id="search-input">
+          </div>
+          <div class="all-tab">
+            <p><a href=#>All</a></p>
           </div>
           <div class='topright'>
           <div class="icon">
@@ -26,5 +30,42 @@
           <button>Sign in</button>
           </div>
         </div>
+      </div>
+        <div class="results">
+          <h3><a href='https://bottega.tech'>Bottega</a></h3>
+          <h5 class='link'>https://www.bottega.tech</h5>
+          <p>Bottega's Website!! Woah! Welcome to coding!</p>
+          <h3><a href='https://bottega.tech'>Made By</a></h3>
+          <h5 class='link'>https://www.bottega.tech</h5>
+          <p>This was a lot of fun to make.</p>
+          <h3><a href='https://bottega.tech'>Jaiden Lewis</a></h3>
+          <h5 class='link'>https://www.bottega.tech</h5>
+          <p>Bottega teaches you how to code!</p>
+          <h3><a href='https://bottega.tech'>Thank</a></h3>
+          <h5 class='link'>https://www.bottega.tech</h5>
+          <p>I'd like to thank Bottega</p>
+          <h3><a href='https://bottega.tech'>You</a></h3>
+          <h5 class='link'>https://www.bottega.tech</h5>
+          <p>Eric Broadbent and the Community Learning Center</p>
+          <h3><a href='https://bottega.tech'>So much</a></h3>
+          <h5 class='link'>https://www.bottega.tech</h5>
+          <p>And the Tooele County for allowing us to learn code for free</p>
+          <h3><a href='https://bottega.tech'>Goodbye</a></h3>
+          <h5 class='link'>https://www.bottega.tech</h5>
+          <p>This took a little while to make</p>
+          <h3><a href='https://bottega.tech'>Have a nice day</a></h3>
+          <h5 class='link'>https://www.bottega.tech</h5>
+          <p>And I tried to make it as unique as I could.</p>
         </body>
+        <script>
+        function Clear() {
+
+          if (document.querySelector('#search-input').value == "Google") {
+            window.location.href="index.html";
+          } else {
+            document.querySelector('#search-input').value = '';
+          }
+        }
+        $(`#search-input`).keydown( e => {if (e.which == 13) Clear();})
+        </script>
         </html>

@@ -2,6 +2,23 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
+.all-tab p {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -35px;
+  color: #222;
+}
+
+.all-tab a {
+  border-bottom: 2px solid #1a73e8;
+  color: #1a73e8;
+  padding: 0 25px;
+}
+
+.all-tab a {
+  text-decoration: none;
+}
+
 .headerbar {
   padding-top: -1px;
   padding-left: -1px;
@@ -17,6 +34,7 @@ html {
   width: 8.5%;
   height: 11%;
 }
+
 
 .signinbutton button {
   background-color: #4285f4;
